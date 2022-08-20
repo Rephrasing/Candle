@@ -5,14 +5,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.rephrasing</groupId>
-    <artifactId>Candle</artifactId>
+    <artifactId>candle</artifactId>
     <version>1.0.0</version>
+    <packaging>pom</packaging>
 
     <distributionManagement>
         <repository>
             <id>github</id>
             <name>GitHub Rephrasing Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/DougDevelopz/Candle</url>
+            <url>https://maven.pkg.github.com/Rephrasing/Candle</url>
         </repository>
     </distributionManagement>
 
@@ -34,6 +35,18 @@
             <groupId>org.mongodb</groupId>
             <artifactId>mongodb-driver-sync</artifactId>
             <version>4.7.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>23.0.0</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.24</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
